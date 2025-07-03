@@ -1,14 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\leone\\Desktop\\Universidad\\6tosemestre\\Digital\\Memoria\\ProyectoDigital\\ProyectoDigital\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario-PC\\Desktop\\Universidad\\6tosemestre\\Digital\\ProyectoDigital\\ProyectoDigital\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F41B7AA1-7365-4EAD-9B2A-935E2DCCEE89}|ProyectoDigital\\ProyectoDigital.csproj|c:\\users\\leone\\desktop\\universidad\\6tosemestre\\digital\\memoria\\proyectodigital\\proyectodigital\\proyectodigital\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F41B7AA1-7365-4EAD-9B2A-935E2DCCEE89}|ProyectoDigital\\ProyectoDigital.csproj|c:\\users\\usuario-pc\\desktop\\universidad\\6tosemestre\\digital\\proyectodigital\\proyectodigital\\proyectodigital\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F41B7AA1-7365-4EAD-9B2A-935E2DCCEE89}|ProyectoDigital\\ProyectoDigital.csproj|solutionrelative:proyectodigital\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F41B7AA1-7365-4EAD-9B2A-935E2DCCEE89}|ProyectoDigital\\ProyectoDigital.csproj|c:\\users\\leone\\desktop\\universidad\\6tosemestre\\digital\\memoria\\proyectodigital\\proyectodigital\\proyectodigital\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F41B7AA1-7365-4EAD-9B2A-935E2DCCEE89}|ProyectoDigital\\ProyectoDigital.csproj|C:\\Users\\Usuario-PC\\Desktop\\Universidad\\6tosemestre\\Digital\\ProyectoDigital\\ProyectoDigital\\proyectodigital\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F41B7AA1-7365-4EAD-9B2A-935E2DCCEE89}|ProyectoDigital\\ProyectoDigital.csproj|solutionrelative:proyectodigital\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F41B7AA1-7365-4EAD-9B2A-935E2DCCEE89}|ProyectoDigital\\ProyectoDigital.csproj|c:\\users\\usuario-pc\\desktop\\universidad\\6tosemestre\\digital\\proyectodigital\\proyectodigital\\proyectodigital\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F41B7AA1-7365-4EAD-9B2A-935E2DCCEE89}|ProyectoDigital\\ProyectoDigital.csproj|solutionrelative:proyectodigital\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F41B7AA1-7365-4EAD-9B2A-935E2DCCEE89}|ProyectoDigital\\ProyectoDigital.csproj|c:\\users\\usuario-pc\\desktop\\universidad\\6tosemestre\\digital\\proyectodigital\\proyectodigital\\proyectodigital\\manejadortemperatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F41B7AA1-7365-4EAD-9B2A-935E2DCCEE89}|ProyectoDigital\\ProyectoDigital.csproj|solutionrelative:proyectodigital\\manejadortemperatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F41B7AA1-7365-4EAD-9B2A-935E2DCCEE89}|ProyectoDigital\\ProyectoDigital.csproj|c:\\users\\usuario-pc\\desktop\\universidad\\6tosemestre\\digital\\proyectodigital\\proyectodigital\\proyectodigital\\procesadorserial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F41B7AA1-7365-4EAD-9B2A-935E2DCCEE89}|ProyectoDigital\\ProyectoDigital.csproj|solutionrelative:proyectodigital\\procesadorserial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F41B7AA1-7365-4EAD-9B2A-935E2DCCEE89}|ProyectoDigital\\ProyectoDigital.csproj|c:\\users\\usuario-pc\\desktop\\universidad\\6tosemestre\\digital\\proyectodigital\\proyectodigital\\proyectodigital\\datossensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F41B7AA1-7365-4EAD-9B2A-935E2DCCEE89}|ProyectoDigital\\ProyectoDigital.csproj|solutionrelative:proyectodigital\\datossensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,21 +34,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ManejadorTemperatura.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\Desktop\\Universidad\\6tosemestre\\Digital\\ProyectoDigital\\ProyectoDigital\\ProyectoDigital\\ManejadorTemperatura.cs",
+              "RelativeDocumentMoniker": "ProyectoDigital\\ManejadorTemperatura.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\Desktop\\Universidad\\6tosemestre\\Digital\\ProyectoDigital\\ProyectoDigital\\ProyectoDigital\\ManejadorTemperatura.cs",
+              "RelativeToolTip": "ProyectoDigital\\ManejadorTemperatura.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAIwAcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T22:25:55.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DatosSensor.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\Desktop\\Universidad\\6tosemestre\\Digital\\ProyectoDigital\\ProyectoDigital\\ProyectoDigital\\DatosSensor.cs",
+              "RelativeDocumentMoniker": "ProyectoDigital\\DatosSensor.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\Desktop\\Universidad\\6tosemestre\\Digital\\ProyectoDigital\\ProyectoDigital\\ProyectoDigital\\DatosSensor.cs",
+              "RelativeToolTip": "ProyectoDigital\\DatosSensor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T22:25:28.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProcesadorSerial.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\Desktop\\Universidad\\6tosemestre\\Digital\\ProyectoDigital\\ProyectoDigital\\ProyectoDigital\\ProcesadorSerial.cs",
+              "RelativeDocumentMoniker": "ProyectoDigital\\ProcesadorSerial.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\Desktop\\Universidad\\6tosemestre\\Digital\\ProyectoDigital\\ProyectoDigital\\ProyectoDigital\\ProcesadorSerial.cs",
+              "RelativeToolTip": "ProyectoDigital\\ProcesadorSerial.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAwwBYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T22:24:51.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\Desktop\\Universidad\\6tosemestre\\Digital\\ProyectoDigital\\ProyectoDigital\\ProyectoDigital\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "ProyectoDigital\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\Desktop\\Universidad\\6tosemestre\\Digital\\ProyectoDigital\\ProyectoDigital\\ProyectoDigital\\Form1.Designer.cs",
+              "RelativeToolTip": "ProyectoDigital\\Form1.Designer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T22:21:17.363Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\leone\\Desktop\\Universidad\\6tosemestre\\Digital\\Memoria\\ProyectoDigital\\ProyectoDigital\\ProyectoDigital\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\Desktop\\Universidad\\6tosemestre\\Digital\\ProyectoDigital\\ProyectoDigital\\ProyectoDigital\\Form1.cs",
               "RelativeDocumentMoniker": "ProyectoDigital\\Form1.cs",
-              "ToolTip": "C:\\Users\\leone\\Desktop\\Universidad\\6tosemestre\\Digital\\Memoria\\ProyectoDigital\\ProyectoDigital\\ProyectoDigital\\Form1.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\Desktop\\Universidad\\6tosemestre\\Digital\\ProyectoDigital\\ProyectoDigital\\ProyectoDigital\\Form1.cs",
               "RelativeToolTip": "ProyectoDigital\\Form1.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAAAGIAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAlwGYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-01T12:54:12.073Z",
               "EditorCaption": ""
@@ -41,9 +105,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\leone\\Desktop\\Universidad\\6tosemestre\\Digital\\Memoria\\ProyectoDigital\\ProyectoDigital\\ProyectoDigital\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\Desktop\\Universidad\\6tosemestre\\Digital\\ProyectoDigital\\ProyectoDigital\\ProyectoDigital\\Form1.cs",
               "RelativeDocumentMoniker": "ProyectoDigital\\Form1.cs",
-              "ToolTip": "C:\\Users\\leone\\Desktop\\Universidad\\6tosemestre\\Digital\\Memoria\\ProyectoDigital\\ProyectoDigital\\ProyectoDigital\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Usuario-PC\\Desktop\\Universidad\\6tosemestre\\Digital\\ProyectoDigital\\ProyectoDigital\\ProyectoDigital\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "ProyectoDigital\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-01T12:53:37.243Z",

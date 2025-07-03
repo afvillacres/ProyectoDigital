@@ -23,3 +23,15 @@ C:\Users\leone\Desktop\Universidad\6tosemestre\Digital\Memoria\ProyectoDigital\P
 C:\Users\leone\Desktop\Universidad\6tosemestre\Digital\Memoria\ProyectoDigital\ProyectoDigital\ProyectoDigital\obj\Debug\Proyecto.A0A86C05.Up2Date
 C:\Users\leone\Desktop\Universidad\6tosemestre\Digital\Memoria\ProyectoDigital\ProyectoDigital\ProyectoDigital\obj\Debug\ProyectoDigital.exe
 C:\Users\leone\Desktop\Universidad\6tosemestre\Digital\Memoria\ProyectoDigital\ProyectoDigital\ProyectoDigital\obj\Debug\ProyectoDigital.pdb
+C:\Users\Usuario-PC\Desktop\Universidad\6tosemestre\Digital\ProyectoDigital\ProyectoDigital\ProyectoDigital\obj\Debug\ProyectoDigital.csproj.AssemblyReference.cache
+C:\Users\Usuario-PC\Desktop\Universidad\6tosemestre\Digital\ProyectoDigital\ProyectoDigital\ProyectoDigital\obj\Debug\ProyectoDigital.Form1.resources
+C:\Users\Usuario-PC\Desktop\Universidad\6tosemestre\Digital\ProyectoDigital\ProyectoDigital\ProyectoDigital\obj\Debug\ProyectoDigital.Properties.Resources.resources
+C:\Users\Usuario-PC\Desktop\Universidad\6tosemestre\Digital\ProyectoDigital\ProyectoDigital\ProyectoDigital\obj\Debug\ProyectoDigital.csproj.GenerateResource.cache
+C:\Users\Usuario-PC\Desktop\Universidad\6tosemestre\Digital\ProyectoDigital\ProyectoDigital\ProyectoDigital\obj\Debug\ProyectoDigital.csproj.CoreCompileInputs.cache
+C:\Users\Usuario-PC\Desktop\Universidad\6tosemestre\Digital\ProyectoDigital\ProyectoDigital\ProyectoDigital\obj\Debug\ProyectoDigital.exe
+C:\Users\Usuario-PC\Desktop\Universidad\6tosemestre\Digital\ProyectoDigital\ProyectoDigital\ProyectoDigital\obj\Debug\ProyectoDigital.pdb
+C:\Users\Usuario-PC\Desktop\Universidad\6tosemestre\Digital\ProyectoDigital\ProyectoDigital\ProyectoDigital\bin\Debug\ProyectoDigital.exe.config
+C:\Users\Usuario-PC\Desktop\Universidad\6tosemestre\Digital\ProyectoDigital\ProyectoDigital\ProyectoDigital\bin\Debug\ProyectoDigital.exe
+C:\Users\Usuario-PC\Desktop\Universidad\6tosemestre\Digital\ProyectoDigital\ProyectoDigital\ProyectoDigital\bin\Debug\ProyectoDigital.pdb
+C:\Users\Usuario-PC\Desktop\Universidad\6tosemestre\Digital\ProyectoDigital\ProyectoDigital\ProyectoDigital\bin\Debug\Guna.UI2.dll
+C:\Users\Usuario-PC\Desktop\Universidad\6tosemestre\Digital\ProyectoDigital\ProyectoDigital\ProyectoDigital\obj\Debug\Proyecto.A0A86C05.Up2Date

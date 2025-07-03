@@ -14,96 +14,89 @@ namespace ProyectoDigital
 {
     public partial class Form1 : Form
     {
-        private float temperatura = 38.0f;
-        private Timer tempTimer;
-        private Timer parpadeoTimer;
-        private Color colorOriginal;
-        private bool alertaActiva = false;
+        private DatosSensor datosSensor;
+        private ManejadorTemperatura manejador;
+        private ProcesadorSerial procesador;
 
         public Form1()
         {
             InitializeComponent();
-            serialPort1.Open();
-            serialPort1.DataReceived += SerialPort1_DataReceived;
+            datosSensor = new DatosSensor();
+            manejador = new ManejadorTemperatura(guna2PictureBox1, txtInformacion);
+            procesador = new ProcesadorSerial(serialPort1, datosSensor, ActualizarInterfaz, MostrarConsola, manejador);
 
-            // Timer para simular temperatura
-            tempTimer = new Timer();
-            tempTimer.Interval = 2000;
-            tempTimer.Tick += TempTimer_Tick;
-
-            // Timer para parpadeo del mapa
-            colorOriginal = guna2PictureBox1.BackColor;
-            parpadeoTimer = new Timer();
-            parpadeoTimer.Interval = 300;
-            parpadeoTimer.Tick += ParpadeoTimer_Tick;
-
-            // Mostrar temperatura inicial
-            lbTemperatura.Text = $"{temperatura:F1} °C";
+            serialPort1.BaudRate = 9600;
+            serialPort1.DataBits = 8;
+            serialPort1.Parity = Parity.None;
+            serialPort1.StopBits = StopBits.One;
 
 
         }
 
+        private void ActualizarInterfaz()
+        {
+            if (InvokeRequired)
+            {
+                BeginInvoke((MethodInvoker)ActualizarInterfaz);
+                return;
+            }
+
+            lbTemperatura.Text = $"{datosSensor.Temperatura:F1} °C";
+            lbOxigeno.Text = datosSensor.EstadoOxigeno;
+            lbEscudo.Text = datosSensor.EstadoEscudo;
+            lbNivelLuz.Text = datosSensor.EstadoNivelLuz;
+            lbComunicacion.Text = datosSensor.UltimaLetraEEPROM != '?' ? $"EEPROM: {datosSensor.UltimaLetraEEPROM}" : "";
+
+            lbOxigeno.ForeColor = datosSensor.EstadoOxigeno == "BAJO" ? Color.Red : Color.Green;
+            lbEscudo.ForeColor = datosSensor.EstadoEscudo == "ACTIVO" ? Color.Green : Color.Gray;
+            lbNivelLuz.ForeColor = datosSensor.EstadoNivelLuz == "BAJO" ? Color.Orange : Color.Yellow;
+        }
+
+
+        private void MostrarConsola(string msg)
+        {
+            if (InvokeRequired)
+            {
+                BeginInvoke((MethodInvoker)(() => MostrarConsola(msg)));
+                return;
+            }
+
+            txtInformacion.AppendText(msg + Environment.NewLine);
+            txtInformacion.SelectionStart = txtInformacion.Text.Length;
+            txtInformacion.ScrollToCaret();
+        }
 
         private void btnConectar_Click(object sender, EventArgs e)
         {
-            tempTimer.Start();
-            txtInformacion.AppendText("[SYSTEM] Simulación iniciada" + Environment.NewLine);
-        }
-
-        private void TempTimer_Tick(object sender, EventArgs e)
-        {
-            // Aumentar temperatura gradualmente
-            if (temperatura < 45.0f)
-            {
-                temperatura += 1.0f;
-            }
-
-            // Actualizar label
-            lbTemperatura.Text = $"{temperatura:F1} °C";
-
-            // Enviar temperatura al Arduino
-            serialPort1.Write(temperatura.ToString("F1"));
-
-            // Verificar alarma
-            if (temperatura > 35.0f && !alertaActiva)
-            {
-                alertaActiva = true;
-                parpadeoTimer.Start();
-                txtInformacion.AppendText($"[ALERT] Temperatura crítica: {temperatura:F1}°C" + Environment.NewLine);
-            }
-            else if (temperatura <= 35.0f && alertaActiva)
-            {
-                alertaActiva = false;
-                parpadeoTimer.Stop();
-                guna2PictureBox1.BackColor = colorOriginal;
-                txtInformacion.AppendText($"[SYSTEM] Temperatura normalizada: {temperatura:F1}°C" + Environment.NewLine);
-            }
-        }
-
-        private void SerialPort1_DataReceived(object sender, System.IO.Ports.SerialDataReceivedEventArgs e)
-        {
             try
             {
-                string data = serialPort1.ReadExisting(); // Lee todo lo disponible (una o varias letras)
-                this.Invoke((MethodInvoker)delegate
+                if (!serialPort1.IsOpen)
                 {
-                    txtInformacion.AppendText(data); // Añade directamente al textbox
-                });
+                    serialPort1.Open();
+                    MostrarConsola("[SYSTEM] Puerto serie conectado");
+                }
+                else
+                {
+                    MostrarConsola("[SYSTEM] Puerto ya conectado");
+                }
             }
             catch (Exception ex)
             {
-                this.Invoke((MethodInvoker)delegate
-                {
-                    txtInformacion.AppendText("[ERROR] Lectura fallida: " + ex.Message + "\n");
-                });
+                MostrarConsola($"[ERROR] {ex.Message}");
             }
         }
 
-        private void ParpadeoTimer_Tick(object sender, EventArgs e)
+        private void btnEnviar_Click(object sender, EventArgs e)
         {
-            guna2PictureBox1.BackColor =
-                guna2PictureBox1.BackColor == Color.Red ? colorOriginal : Color.Red;
+            if (serialPort1.IsOpen)
+                MostrarConsola("[SYSTEM] Solicitando datos...");
+            else
+                MostrarConsola("[ERROR] Puerto no conectado");
         }
 
+        private void btnMostrarGrafica_Click(object sender, EventArgs e)
+        {
+            manejador.MostrarGrafica(chart1);
+        }
     }
 }
